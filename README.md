@@ -1,16 +1,11 @@
-# Servifide — private portfolio showcase
+# Servifide
 
-Servifide is a governance workspace for understanding how an organization’s services, vendors, agreements, evidence, and risks relate. It helps teams turn missing or uncertain relationships into work they can review and resolve.
+I started Servifide as an exploration of the work that sits alongside platforms such as Vanta and Drata: connecting evidence to the services, vendors, and agreements it relates to, then deciding what to do when something is missing. I’m interested in the intersection of day-to-day security operations, evidence, and human judgment. This is my attempt to make those relationships easier to review while leaving consequential decisions with people.
 
-This repository is a **showcase only**. The application implementation stays private and is not included here.
+In the workflow, someone starts with a service, links it to its provider and relevant agreement, and sees where evidence or coverage is missing. A reviewer can follow source material into a proposed change, check the context, and decide whether it should become an accepted record or an action. Controls, evidence, risks, and assessments connect through the same relationships.
 
-## What the product helps people do
-
-A team can start with a service it depends on, connect its provider and relevant agreement, then see where coverage or evidence is missing. Reviewers can follow source material into proposed changes, assess the context, and decide what should become an accepted record or action. Related control, evidence, risk, and assessment views build on those same relationships.
-
-The aim is a coherent path from “what do we depend on?” to “what needs attention, and why?” rather than a collection of disconnected compliance checklists.
-
-## Principles behind the experience
+## Design choices
+## Design choices
 
 - **Keep relationships explicit.** A provider mention or commercial reference does not by itself prove that an agreement covers a service.
 - **Separate evidence from conclusions.** Source material, suggestions, accepted relationships, computed gaps, work items, and formal decisions have distinct meanings.
@@ -18,11 +13,9 @@ The aim is a coherent path from “what do we depend on?” to “what needs att
 - **Make uncertainty visible and actionable.** Missing context is a gap to investigate, not a relationship to invent.
 - **Keep core workflows useful without AI.** Optional assistance is off by default and does not own authority.
 
-These are product principles, not claims of certification or customer outcomes.
+## Screens from the local demo
 
-## Selected UI captures
-
-These are genuine archived captures from a local synthetic browser demo, not newly captured images or views of a customer environment. The source project documents the test accounts and browser records as fictional; generated demo names and identifiers are visible in the captures. They illustrate interface workflows only, not production use or customer outcomes.
+These screens come from a local demo with fictional names and records. They show sample workflows, not a customer environment.
 
 **Work view:** review missing context and route gaps into accountable work.
 
@@ -32,8 +25,7 @@ These are genuine archived captures from a local synthetic browser demo, not new
 
 ![Servifide records list on a narrow screen using synthetic local demo data](assets/servifide-records-mobile-synthetic.png)
 
-The source handoff reports M4 as locally proved and M5 pilot gates as pending. Those source-reported checks do not prove this showcase or a runnable portfolio copy. No production use, customer results, compliance certification, or direct FedRAMP capability is claimed.
-
+These examples don’t show production use, customer results, a compliance certification, or direct FedRAMP delivery.
 ## Licensing
 
-No root license was present in the inspected source paths. This showcase assigns no project license. Required third-party notices must be reviewed and retained if any material is later included.
+No project license is granted here. Keep required third-party notices with any reused material.
