@@ -1,31 +1,44 @@
 # Servifide
 
-I started Servifide as an exploration of the work that sits alongside platforms such as Vanta and Drata: connecting evidence to the services, vendors, and agreements it relates to, then deciding what to do when something is missing. I’m interested in the intersection of day-to-day security operations, evidence, and human judgment. This is my attempt to make those relationships easier to review while leaving consequential decisions with people.
+**Connect what you use, who you depend on, and what governs the relationship. Then make missing context actionable.**
 
-In the workflow, someone starts with a service, links it to its provider and relevant agreement, and sees where evidence or coverage is missing. A reviewer can follow source material into a proposed change, check the context, and decide whether it should become an accepted record or an action. Controls, evidence, risks, and assessments connect through the same relationships.
+Servifide explores a practical security-operations workflow: start with a service, follow the provider and agreement relationships that have actually been reviewed, and route open questions into accountable work.
 
-## Design choices
+## A quick look inside
 
-- **Keep relationships explicit.** A provider mention or commercial reference does not by itself prove that an agreement covers a service.
-- **Separate evidence from conclusions.** Source material, suggestions, accepted relationships, computed gaps, work items, and formal decisions have distinct meanings.
-- **Keep people in charge of decisions.** Automation can organize or suggest; accountable review determines what is accepted.
-- **Make uncertainty visible and actionable.** Missing context is a gap to investigate, not a relationship to invent.
-- **Keep core workflows useful without AI.** Optional assistance is off by default and does not own authority.
+### Work that points to a next step
 
-## Screens from the local demo
+Review missing provider, owner, or agreement context in one queue. A commercial hint stays a hint until someone confirms the relationship.
 
-These screens come from a local demo with fictional names and records. They show sample workflows, not a customer environment.
+![Servifide Work view with open synthetic review conditions](assets/servifide-work-synthetic.png)
 
-**Work view:** review missing context and route gaps into accountable work.
+### Source files, reviewed before they become records
 
-![Servifide Work view using synthetic local demo data](assets/servifide-work-synthetic.png)
+Map fields, inspect candidate rows, and choose what should be created, matched, or skipped before committing an import.
 
-**Responsive records view:** browse service and organization records on a narrow screen.
+![Servifide intake review screen from a local synthetic test](assets/servifide-intake-capture.png)
 
-![Servifide records list on a narrow screen using synthetic local demo data](assets/servifide-records-mobile-synthetic.png)
+### A service, with its context in view
 
-These images show the local demo, not a production deployment or customer outcomes. They’re not evidence of a compliance certification or FedRAMP delivery.
+See the provider, agreement coverage, relevant work, and source-linked context together without collapsing them into one status.
 
-## Licensing
+![Servifide service detail view from a local synthetic test](assets/servifide-service-detail-capture.png)
+
+### Relationships you can inspect
+
+Explore direct connections among a service, its provider, and an agreement while keeping the scope of the view clear.
+
+![Servifide relationship workshop from a local synthetic test](assets/servifide-relationship-workshop-capture.png)
+
+## Product principles
+
+- A provider mention or purchase reference does not prove agreement coverage
+- Source material, proposals, accepted relationships, work items, and decisions stay distinct
+- Automation may organize or suggest; accountable people decide what becomes an accepted record
+- Core review flows remain useful without model assistance
+
+## Demo boundaries
+
+These are archived screenshots from local browser tests with fictional data. Some test captures retain generated labels and IDs; none show a customer environment. They are not a live deployment, compliance certification, or evidence of production readiness.
 
 No project license is granted here. Keep required third-party notices with any reused material.
