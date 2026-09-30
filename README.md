@@ -1,21 +1,31 @@
-# Servifide Demo Snapshot — preparation status
+# Servifide — private portfolio showcase
 
-Servifide is a governance workspace for connecting vendors, services, agreements, source material, controls, evidence, risk, assessments, and actionable gaps. This repository is being prepared as a private portfolio demonstration using synthetic data only.
+Servifide is a governance workspace for understanding how an organization’s services, vendors, agreements, evidence, and risks relate. It helps teams turn missing or uncertain relationships into work they can review and resolve.
 
-## Current state
+This repository is a **showcase only**. The application implementation stays private and is not included here.
 
-This repository currently contains documentation only. Application source, migrations, fixtures, and runtime files have **not** been copied. It is not runnable, and no build or application tests have been run here. See [MIGRATION-STATUS.md](MIGRATION-STATUS.md) for the acquisition blocker and next step.
+## What the product helps people do
 
-The source project’s latest handoff describes M4 as locally proved and M5 pilot gates as pending. That handoff is not test evidence for this repository. No production, customer deployment, compliance certification, or direct FedRAMP capability is claimed.
+A team can start with a service it depends on, connect its provider and relevant agreement, then see where coverage or evidence is missing. Reviewers can follow source material into proposed changes, assess the context, and decide what should become an accepted record or action. Related control, evidence, risk, and assessment views build on those same relationships.
 
-## Intended demo
+The aim is a coherent path from “what do we depend on?” to “what needs attention, and why?” rather than a collection of disconnected compliance checklists.
 
-The eventual snapshot should demonstrate current implemented workflows with synthetic fixtures only. It must not contain customer records, real user accounts, credentials, environment secrets, database exports, or investigation data. Optional AI must remain off by default.
+## Principles behind the experience
 
-## Setup and checks
+- **Keep relationships explicit.** A provider mention or commercial reference does not by itself prove that an agreement covers a service.
+- **Separate evidence from conclusions.** Source material, suggestions, accepted relationships, computed gaps, work items, and formal decisions have distinct meanings.
+- **Keep people in charge of decisions.** Automation can organize or suggest; accountable review determines what is accepted.
+- **Make uncertainty visible and actionable.** Missing context is a gap to investigate, not a relationship to invent.
+- **Keep core workflows useful without AI.** Optional assistance is off by default and does not own authority.
 
-There is no application source in this snapshot yet, so setup and test instructions cannot be provided accurately. Do not treat this documentation-only repository as a working demo.
+These are product principles, not claims of certification or customer outcomes.
 
-## License
+## Demonstration and maturity
 
-No root license was present in the inspected source paths. No new license is assigned here. Review retained third-party notices before any broader release.
+No application screenshot is included yet. A screenshot will be added only after the actual local demo is run with synthetic data and the image is checked for sensitive or identifying content. This showcase does not claim production use, customer results, compliance certification, or direct FedRAMP capability.
+
+The available source handoff reports M4 as locally proved and M5 pilot gates as pending. Those source-reported checks do not prove this showcase or a runnable portfolio copy.
+
+## Licensing
+
+No root license was present in the inspected source paths. This showcase assigns no project license. Required third-party notices must be reviewed and retained if any material is later included.
