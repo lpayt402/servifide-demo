@@ -20,11 +20,19 @@ The aim is a coherent path from “what do we depend on?” to “what needs att
 
 These are product principles, not claims of certification or customer outcomes.
 
-## Demonstration and maturity
+## Selected UI captures
 
-No application screenshot is included yet. A screenshot will be added only after the actual local demo is run with synthetic data and the image is checked for sensitive or identifying content. This showcase does not claim production use, customer results, compliance certification, or direct FedRAMP capability.
+These are genuine archived captures from a local synthetic browser demo, not newly captured images or views of a customer environment. The source project documents the test accounts and browser records as fictional; generated demo names and identifiers are visible in the captures. They illustrate interface workflows only, not production use or customer outcomes.
 
-The available source handoff reports M4 as locally proved and M5 pilot gates as pending. Those source-reported checks do not prove this showcase or a runnable portfolio copy.
+**Work view:** review missing context and route gaps into accountable work.
+
+![Servifide Work view using synthetic local demo data](assets/servifide-work-synthetic.png)
+
+**Responsive records view:** browse service and organization records on a narrow screen.
+
+![Servifide records list on a narrow screen using synthetic local demo data](assets/servifide-records-mobile-synthetic.png)
+
+The source handoff reports M4 as locally proved and M5 pilot gates as pending. Those source-reported checks do not prove this showcase or a runnable portfolio copy. No production use, customer results, compliance certification, or direct FedRAMP capability is claimed.
 
 ## Licensing
 
