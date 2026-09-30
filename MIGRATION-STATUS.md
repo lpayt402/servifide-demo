@@ -1,27 +1,23 @@
-# Migration status: Servifide demo snapshot
+# Servifide showcase preparation
 
-**Status: blocked before code acquisition. Documentation-only preparation.**
+**Scope: private, high-level showcase only. No implementation source belongs in this repository.**
 
-## Intended outcome
+## What the showcase may contain
 
-Prepare a clean, runnable, synthetic-data demo snapshot in this private repository. Do not carry source Git history, source remotes, old account identity, old account URLs, badges, source-specific config paths, or identifying screenshots. Preserve required third-party copyright and license notices. Do not invent a project license.
+Product purpose, user workflows, high-level principles, accurate maturity limits, and genuine screenshots from a local synthetic demo after privacy review. Do not include source code, detailed proprietary algorithms, data models, schemas, contracts, prompts, internal documents, seeds, old account identity/history/URLs, or misleading screenshots. Preserve any required third-party credit if material is later included.
 
-## What was inspected
+## Current state
 
-- Source AGENTS.md, README.md, and STATUS.md were read through the authorized GitHub connector.
-- Target repository metadata confirmed this destination is private and currently empty apart from its README.
-- The source status describes M4 as locally proved and M5 pilot gates as pending. The source README provides setup and test commands, but these describe the source checkout only.
-- Attempts to read root LICENSE and LICENSE.txt returned 404. This does not establish whether dependencies or nested components have required notices.
-- No local source checkout is present in the execution workspace.
+The private target contains a sanitized README with product description and design principles. No screenshot is staged because the actual application could not be launched in this environment. No implementation code, fixtures, migrations, runtime configuration, or source history has been copied. The README does not claim this is runnable.
 
-## Acquisition blocker
+The available source handoff reports M4 as locally proved and M5 pilot gates as pending. These are source-reported maturity notes, not fresh verification of this showcase, and no customer outcome, production use, certification, or direct FedRAMP claim is made.
 
-The available GitHub connector supports repository metadata and reads of individual files by known path. It exposes no repository-tree enumeration or source archive download. Because the repository is substantial, reconstructing it through manual file-by-file API reads would be incomplete and disproportionate. No repeated clone attempt or access workaround was made.
+## Source and transfer handling
 
-## What this repository contains now
+The user-provided Library reference resolved to the named Servifide archive. The first materialization request was rejected because the supplied backing file identifier did not match the Library file. A single retry using the Library file identifier alone returned a transfer, but the bundled materializer then failed with a download error before writing the archive. The workspace contains only the transfer helper; neither archive bytes nor extracted content are present. No raw URL retry or alternate access path was used.
 
-Only a sanitized portfolio README and this migration manifest. No source application files, fixtures, migrations, database, credentials, or runtime configuration were copied. This repository is **not runnable** and has not had build, unit, or smoke checks run.
+Earlier source review through known-file reads covered AGENTS.md, README.md, and STATUS.md. Root LICENSE and LICENSE.txt reads returned 404; this says nothing about nested or third-party notices. The archive tree therefore remains unreviewed.
 
-## Next step
+## Screenshots and next step
 
-Acquire an authorized full source checkout or supported source archive, then review its complete tree and applicable instructions. Audit secrets, user/customer data, account identity, remote URLs, badges, config paths, screenshots, and third-party notices before creating a fresh-history synthetic snapshot. Run the documented build and core tests against that snapshot, record actual results and missed checks, and only then describe it as runnable.
+Do not create an illustrative substitute and call it a product screenshot. Once a supported, successful local materialization route is available, inspect the archive, follow its local instructions, run only synthetic demo data, clean sensitive/old identity from demo state, launch the actual UI, capture and inspect genuine screenshots, then stage them privately for review. Keep the implementation local/private and separate from this showcase.
