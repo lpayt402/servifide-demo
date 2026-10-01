@@ -1,8 +1,8 @@
 # Servifide
 
-**Connect what you use, who you depend on, and what governs the relationship. Then make missing context actionable.**
+Servifide is my attempt to make it easier to follow the relationships between services, providers, agreements, and the work they create.
 
-Servifide explores a practical security-operations workflow: start with a service, follow the provider and agreement relationships that have actually been reviewed, and route open questions into accountable work.
+The screenshots are local browser-test captures with fictional data. They show selected workflows, not a live deployment, compliance certification, or evidence of production readiness.
 
 ## Policy review and search
 
@@ -24,9 +24,5 @@ Search organizations, services, agreements, controls, risks, assessments, and Wo
 - Source material, proposals, accepted relationships, work items, and decisions stay distinct
 - Automation may organize or suggest; accountable people decide what becomes an accepted record
 - Core review flows remain useful without model assistance
-
-## Demo boundaries
-
-These screenshots are local browser-test captures with fictional data. They show specific workflows, not a live deployment, compliance certification, or evidence of production readiness.
 
 No project license is granted here. Keep required third-party notices with any reused material.
