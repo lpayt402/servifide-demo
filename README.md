@@ -10,35 +10,13 @@ Servifide explores a practical security-operations workflow: start with a servic
 
 Create a policy with an accountable owner and retained source and evidence references. Submit a version to a different active administrator for approval or return; inspect its history and retire the policy when it is no longer active. Approved versions and their linked evidence references cannot be rewritten.
 
+![Policy register showing a retained source and an independently approved version](assets/servifide-policy-register.png)
+
 ### Scoped search and CSV export
 
 Search organizations, services, agreements, controls, risks, assessments, and Work. Filter results and navigate stable pages. Download the full authorized query and filter as CSV, up to 500 rows.
 
-## A quick look inside
-
-### Work that points to a next step
-
-Review missing provider, owner, or agreement context in one queue. A commercial hint stays a hint until someone confirms the relationship.
-
-![Servifide Work view with open synthetic review conditions](assets/servifide-work-synthetic.png)
-
-### Source files, reviewed before they become records
-
-Map fields, inspect candidate rows, and choose what should be created, matched, or skipped before committing an import.
-
-![Servifide intake review screen from a local synthetic test](assets/servifide-intake-capture.png)
-
-### A service, with its context in view
-
-See the provider, agreement coverage, relevant work, and source-linked context together without collapsing them into one status.
-
-![Servifide service detail view from a local synthetic test](assets/servifide-service-detail-capture.png)
-
-### Relationships you can inspect
-
-Explore direct connections among a service, its provider, and an agreement while keeping the scope of the view clear.
-
-![Servifide relationship workshop from a local synthetic test](assets/servifide-relationship-workshop-capture.png)
+![Service search filtered by record type with the matching CSV export complete](assets/servifide-search-csv-export.png)
 
 ## Product principles
 
@@ -49,6 +27,6 @@ Explore direct connections among a service, its provider, and an agreement while
 
 ## Demo boundaries
 
-These are archived screenshots from local browser tests with fictional data. Some test captures retain generated labels and IDs; none show a customer environment. They are not a live deployment, compliance certification, or evidence of production readiness.
+These screenshots are local browser-test captures with fictional data. They show specific workflows, not a live deployment, compliance certification, or evidence of production readiness.
 
 No project license is granted here. Keep required third-party notices with any reused material.
