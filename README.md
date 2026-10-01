@@ -14,7 +14,7 @@ Create a policy with an accountable owner and retained source and evidence refer
 
 ### Scoped search and CSV export
 
-Search organizations, services, agreements, controls, risks, assessments, and Work. Filter results and navigate stable pages. Download the full authorized query and filter as CSV, up to 500 rows.
+Search organizations, services, agreements, controls, risks, assessments, and Work. Filter results and page through matches. Download the full authorized query and filter as CSV, up to 500 rows.
 
 ![Service search filtered by record type with the matching CSV export complete](assets/servifide-search-csv-export.png)
 
