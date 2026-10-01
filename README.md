@@ -1,8 +1,8 @@
 # Servifide
 
-**Connect what you use, who you depend on, and what governs the relationship. Then make missing context actionable.**
+**Trace a service through its providers and reviewed agreements. Turn open questions into work someone can own.**
 
-Servifide explores a practical security-operations workflow: start with a service, follow the provider and agreement relationships that have actually been reviewed, and route open questions into accountable work.
+Servifide is a security-operations demo. Start with a service, follow provider and agreement relationships that have been reviewed, then route open questions into accountable work.
 
 ## Policy review and search
 
