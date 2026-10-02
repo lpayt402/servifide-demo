@@ -6,6 +6,22 @@ The screenshots are local browser-test captures with fictional data. They show s
 
 ## Policy review and search
 
+### Workflow sketch
+
+These paths summarize the fictional-data workflows shown in the local browser-test captures. This is a workflow sketch, not a deployment or architecture diagram.
+
+```mermaid
+flowchart LR
+    Owner["Accountable owner"] --> Version["Policy version + source/evidence refs"]
+    Version --> Admin["Different active administrator"]
+    Admin --> Decision{"Approve or return"}
+    Decision -->|"approve"| Approved["Approved version + linked refs stay immutable"]
+    Decision -->|"return"| Owner
+
+    Query["Authorized query + filters"] --> Results["Filtered, paged matches"]
+    Results --> Export["CSV export · up to 500 rows"]
+```
+
 ### A versioned policy register
 
 Create a policy with an accountable owner and retained source and evidence references. Submit a version to a different active administrator for approval or return; inspect its history and retire the policy when it is no longer active. Approved versions and their linked evidence references cannot be rewritten.
